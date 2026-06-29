@@ -1,0 +1,11 @@
+@ContosoClothing.Api_HostAddress = http://localhost:5122
+
+GET {{ContosoClothing.Api_HostAddress}}/api/products
+Accept: application/json
+
+###
+
+GET {{ContosoClothing.Api_HostAddress}}/health
+Accept: application/json
+
+###

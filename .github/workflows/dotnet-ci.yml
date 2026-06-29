@@ -1,0 +1,31 @@
+name: .NET CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore
+        run: dotnet restore GhcpContosoClothing.sln
+
+      - name: Build
+        run: dotnet build GhcpContosoClothing.sln --no-restore
+
+      - name: Test
+        run: dotnet test GhcpContosoClothing.sln --no-build --verbosity normal
