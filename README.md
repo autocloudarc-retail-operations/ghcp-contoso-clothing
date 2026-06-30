@@ -422,6 +422,19 @@ flowchart LR
 * [Unit testing exercise](exercises/05-unit-testing.md)
 * [Documentation and PR summary exercise](exercises/06-documentation-and-pr-summary.md)
 * [Secure coding exercise](exercises/07-secure-coding.md)
+* [Externalize sample data exercise](exercises/08-externalize-sample-data.md)
+* [Improve file data loading exercise](exercises/09-improve-file-data-loading.md)
+* [Add a Postgres container exercise](exercises/10-add-postgres-container.md)
+* [Use the Postgres data store exercise](exercises/11-use-postgres-data-store.md)
+* [Configure data source options exercise](exercises/12-configure-data-source-options.md)
+* [Upgrade the .NET version exercise](exercises/13-upgrade-dotnet-version.md)
+* [Explore Azure migration in Ask mode exercise](exercises/14-plan-azure-migration-ask-mode.md)
+* [Plan Azure migration in Plan mode exercise](exercises/15-plan-azure-migration-plan-mode.md)
+* [Implement an Azure migration increment exercise](exercises/16-implement-azure-migration.md)
+* [Review and refresh the README exercise](exercises/17-review-and-refresh-readme.md)
+* [Review workshop documentation exercise](exercises/18-review-workshop-documentation.md)
+* [Create a README update workflow exercise](exercises/19-create-readme-update-workflow.md)
+* [Final modernization review exercise](exercises/20-final-modernization-review.md)
 
 ## Notes For Workshop Facilitators
 
